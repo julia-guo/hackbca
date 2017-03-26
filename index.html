@@ -1,33 +1,87 @@
 <html>
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<style type="text/css">
 			body{
 				margin: 0 auto;
-				background:#fff;
+				background:#86C3C7;
 			}
 			.header{
 				position:relative;
-				height:286px;
-				width:100%;
-				background:#b8e1f0;
-				text-align:left;
+				padding:0px;
+				height:60%;
+				margin-left:200px;
+				margin-right:200px;
+				border-bottom:1px dashed #aaa;
+				background:#fff;
+				text-align:center;
+				box-shadow:10px 0px 0px #fff, -10px 0px 0px #fff;
+			}
+			.button{
+				display:inline-block;
+				padding:10px;
+				font-family:GT Walsheim Pro Trial Medium;
+				border:1px solid #aaa;
+				width:auto;
+				margin:10px;
+				border-radius:10px;
 			}
 			.page1{
 				position:relative;
-				margin-top:100%;
-				margin-left:0px;
+				margin-top:0px;
+				padding:0px;
+				height:40%;
+				margin-left:200px;
+				margin-right:200px;
+				background:#fff;
+				text-align:center;
+				color:#333;
+				font-size:60px;
+				font-family:GT Walsheim Pro Trial Medium;
+				font-weight:500;
+				border-bottom:1px dashed #aaa;
+				box-shadow:10px 0px 0px #fff, -10px 0px 0px #fff;
+			}
+			#page2{
+				position:relative;
+				margin-top:0px;
+				padding:0px;
 				height:100%;
-				width:100%;
+				margin-left:200px;
+				margin-right:200px;
 				background:#fff;
 				text-align:left;
-				height:286px;
+				font-size:40px;
+				font-family:GT Walsheim Pro Trial Medium;
+				font-weight:500;
+				border-bottom:1px dashed #aaa;
+				box-shadow:10px 0px 0px #fff, -10px 0px 0px #fff;
+			}
+
+			#page3{
+				position:relative;
+				margin-top:0px;
+				padding:0px;
+				height:100%;
+				margin-left:200px;
+				margin-right:200px;
+				background:#fff;
+				text-align:left;
+				font-size:40px;
+				font-family:GT Walsheim Pro Trial Medium;
+				font-weight:500;
+				border-bottom:1px dashed #aaa;
+				box-shadow:10px 0px 0px #fff, -10px 0px 0px #fff;
 			}
 		</style>
 		<title>debatemate</title>
 	</head>
 	<body>
-		<div class="header"><img src="logo.png"></div>
-		<div class="page1">most debates today take place in the facebook comment section<br><br>we wanted to change that.</div>
-		<div class="page2">introducing debatemate: an app that fosters constructive, stimulating debate.<br>debate others, win matches using strong arguments, and have your beliefs challenged</div>
+		<div class="header"><div style="padding:20px;"><img src="logotransparent.png"><br><div class="button">download for ios</div><div class="button">download for android</div></div></div>
+		<div class="page1"><div style="padding:20px;">a mobile platform for constructive, rapid-fire debate<br><a href="#page2"><img src="startbutton.png"></a></div></div>
+		<div id="page2"><div style="position:absolute;bottom:50px;right:0px;"><img src="divide.png"></div><div style="padding:20px;">these days, most debates take place in the comment section of facebook.<br><br>these usually devolve into chaos, with neither side's mind changed or perspective broadened.<br><br>this furthers the already large political division in today's america.<br><br>we wanted to change this...<br><br><center><a href="#page3"><img src="startbutton.png"></a></center></div></div>
+		<div id="page3"><div style="padding:20px;">introducing debatemate, an app that fosters constructive, stimulating debate.<br><br>debate others 1-on-1 on pressing modern issues, win matches using strong arguments, and have your beliefs challenged<div style="display:inline;font-family:Montserrat">!</div><br><br>it's great practice for debate teams and articulating your opinion in general<div style="display:inline;font-family:Montserrat">!</div></div></div>
 	</body>
+<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="smooth.js"></script>
 </html>
