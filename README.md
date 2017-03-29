@@ -1,5 +1,7 @@
 ## debateMate
 
+Winner of MakeSchool-sponsored "Best iOS Path" at hackBCA IV!
+
 http://julia-guo.github.io/hackbca
 
 App code:
